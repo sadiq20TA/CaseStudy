@@ -4,4 +4,4 @@ import pandas as pd
 
 def binned_selling_price(df):
     """Bin the selling price column using quantiles."""
-    return pd.qcut(df["sales_dollars_value"], q=10)
+    return pd.qcut(df["sales_dollars_value"], q=1)
